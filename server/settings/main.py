@@ -128,7 +128,7 @@ class AttributesMappingModel(BaseSettingsModel):
     ayon: str = SettingsField(title="AYON")
     type: str = SettingsField(
         title="Field type",
-        disabled=True,
+        disabled=False,
     )
     sg: str = SettingsField(title="SG")
     scope: list[str] = SettingsField(
