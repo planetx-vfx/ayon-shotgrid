@@ -57,3 +57,6 @@ services/transmitter/utils.py
 
 # ignore mkdocs build
 site/
+
+# ignore envrc files used by direnv
+.envrc
